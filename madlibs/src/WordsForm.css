@@ -1,0 +1,11 @@
+.WordsForm {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+input {
+    width: 300px;
+    margin-bottom: 10px;
+}
