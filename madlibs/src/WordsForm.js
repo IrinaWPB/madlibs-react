@@ -17,7 +17,7 @@ const WordsForm = ({ getWords }) => {
     //Checks if all the fields are filled to enable the submit button 
     useEffect(() => {
         if (Object.values(data).indexOf("") === -1) {
-                    setDisabled(false)
+            setDisabled(false)
         } else setDisabled(true)
     }, [data])
 
@@ -55,7 +55,7 @@ const WordsForm = ({ getWords }) => {
                    placeholder="verb" name="verb"
                    value={data.verb} onChange={handleChange}></input>
             <label htmlFor="noun2"></label>
-            <input id="noun3" type="text" 
+            <input id="noun2" type="text" 
                    placeholder="noun 2" name="noun2"
                    value={data.noun2} onChange={handleChange}></input>
             <button disabled={disabled}>Get a Story</button>

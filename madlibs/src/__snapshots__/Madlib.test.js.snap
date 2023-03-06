@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Madlib"
+  >
+    <h1>
+      Madlibs
+    </h1>
+    <form
+      class="WordsForm"
+    >
+      <label
+        for="name"
+      />
+      <input
+        id="name"
+        name="name"
+        placeholder="name"
+        type="text"
+        value=""
+      />
+      <label
+        for="adjective"
+      />
+      <input
+        id="adjective"
+        name="adjective"
+        placeholder="adjective"
+        type="text"
+        value=""
+      />
+      <label
+        for="noun1"
+      />
+      <input
+        id="noun1"
+        name="noun1"
+        placeholder="noun 1"
+        type="noun1"
+        value=""
+      />
+      <label
+        for="verb"
+      />
+      <input
+        id="verb"
+        name="verb"
+        placeholder="verb"
+        type="verb"
+        value=""
+      />
+      <label
+        for="noun2"
+      />
+      <input
+        id="noun2"
+        name="noun2"
+        placeholder="noun 2"
+        type="text"
+        value=""
+      />
+      <button
+        disabled=""
+      >
+        Get a Story
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
